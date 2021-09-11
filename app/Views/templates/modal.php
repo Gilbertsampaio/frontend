@@ -13,10 +13,10 @@
 
 <div class="visibHid" id="divSearch">
   <div class="divClose">
-    <i class="mdi mdi-window-close closeSearch"></i>
+    <i data-toggle="tooltip" data-bs-placement="left" title="Fechar Box" class="mdi mdi-window-close closeSearch"></i>
   </div>
   <div class="divSearch">
-    <input autocomplete="off" type="text" class="search text-dark" name="localizar" id="localizar">
+    <input autocomplete="off" type="text" placeholder="O QUE VOCÊ PROCURA?" class="search text-dark" name="localizar" id="localizar">
   </div>
 </div>
 

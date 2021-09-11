@@ -70,6 +70,21 @@ textarea {
     transition: all .3s ease;
 }
 
+.modal.modal-static .modal-dialog {
+    transition: all .2s ease;
+    transform: scale(1.02);
+    box-shadow: 0px 0px 20px #fc0000;
+}
+
+.modal-dialog-centered {
+    min-height: 0;
+    top: 20%;
+}
+
+.modal-dialog.modal-dialog-centered {
+    margin: 1.75rem auto;
+}
+
 .center {
     text-align: center;
 }
@@ -210,10 +225,10 @@ input.search:focus {
 
 #divSearch.show>.divSearch>.search {
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
     padding: 10px 20px;
     border: 2px solid rgba(13, 202, 240, .5);
-    border-radius: 10px;
+    border-radius: 5px;
     transition: all .3s ease;
     visibility: visible;
     opacity: 1;

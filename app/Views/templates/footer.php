@@ -361,20 +361,28 @@
       }, 5000)
     }
 
-    function buscar(){
+    function buscar() {
+
+      $('[data-toggle="tooltip"]').tooltip({
+        trigger: 'hover'
+      });
+
+      $('[data-toggle="tooltip"]').on('click', function() {
+        $(this).tooltip('hide')
+      });
 
       $('#divSearch').addClass('show');
-      setTimeout(function(){
+      setTimeout(function() {
         $('#localizar').focus();
-      },300)
+      }, 300)
 
-      $('body').css('overflow-y','hidden');
+      $('body').css('overflow-y', 'hidden');
       $('.fundSearch').addClass('show').removeClass('fade');
     }
 
-    $(document).on('click', '.closeSearch', function(){
+    $(document).on('click', '.closeSearch', function() {
       $('#divSearch').removeClass('show');
-      $('body').css('overflow-y','auto');
+      $('body').css('overflow-y', 'auto');
       $('.fundSearch').removeClass('show').addClass('fade')
     })
   </script>
