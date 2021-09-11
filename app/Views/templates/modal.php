@@ -10,3 +10,14 @@
     </div>
   </div>
 </div>
+
+<div class="visibHid" id="divSearch">
+  <div class="divClose">
+    <i class="mdi mdi-window-close closeSearch"></i>
+  </div>
+  <div class="divSearch">
+    <input autocomplete="off" type="text" class="search text-dark" name="localizar" id="localizar">
+  </div>
+</div>
+
+<div class="fundSearch fade"></div>

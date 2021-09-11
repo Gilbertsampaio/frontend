@@ -360,6 +360,23 @@
         $('.modal').modal('hide');
       }, 5000)
     }
+
+    function buscar(){
+
+      $('#divSearch').addClass('show');
+      setTimeout(function(){
+        $('#localizar').focus();
+      },300)
+
+      $('body').css('overflow-y','hidden');
+      $('.fundSearch').addClass('show').removeClass('fade');
+    }
+
+    $(document).on('click', '.closeSearch', function(){
+      $('#divSearch').removeClass('show');
+      $('body').css('overflow-y','auto');
+      $('.fundSearch').removeClass('show').addClass('fade')
+    })
   </script>
 
   <?php echo view('templates/modal') ?>

@@ -84,6 +84,156 @@ textarea {
     transition: all .3s ease;
 }
 
+#divSearch {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    width: 0px;
+    height: 0px;
+    z-index: 10000;
+    opacity: 100%;
+    transition: all .3s ease;
+}
+
+#divSearch.show {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease;
+}
+
+.divClose {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    height: 0px;
+    width: 0px;
+    transition: all .3s ease;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.closeSearch {
+    cursor: pointer;
+}
+
+#divSearch.show .divClose {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    transition: all .3s ease;
+    visibility: visible;
+    opacity: 1;
+}
+
+.divClose>.mdi-window-close::before {
+    display: block !important;
+}
+
+.fundSearch.show {
+    opacity: .8;
+    transition: all .3s ease;
+}
+
+.fundSearch.fade {
+    opacity: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    width: 0px;
+    height: 0px;
+    background-color: #000;
+    transition: all .3s ease;
+}
+
+#divSearch.show~.fundSearch {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    transition: all .3s ease;
+}
+
+.fade {
+    transition: opacity .15s linear;
+}
+
+.divClose>i {
+    font-size: 40px;
+    color: rgba(13, 202, 240, 1);
+}
+
+.search {
+    width: 100%;
+    font-size: 0px;
+    padding: 0;
+    border-radius: 10px;
+    transition: all .3s ease;
+    visibility: hidden;
+    opacity: 0;
+}
+
+input.search:focus {
+    border: 2px solid rgba(13, 202, 240, 1);
+    border-radius: 10px;
+    outline: 0;
+    transition: all .3s ease;
+}
+
+.divSearch {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    right: 25%;
+    padding: 0;
+    z-index: 999999;
+}
+
+.visibleHidde {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.visibHid {
+    opacity: 0;
+}
+
+#divSearch.show>.divSearch>.search {
+    width: 100%;
+    font-size: 40px;
+    padding: 10px 20px;
+    border: 2px solid rgba(13, 202, 240, .5);
+    border-radius: 10px;
+    transition: all .3s ease;
+    visibility: visible;
+    opacity: 1;
+    background: #fff;
+}
+
+#divSearch.show>.divSearch {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    right: 25%;
+    padding: 100px;
+    opacity: 1;
+    z-index: 999999;
+}
+
+.d-none {
+    display: none;
+}
+
 .pl {
     padding-left: 80px;
 }
