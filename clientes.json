@@ -1,0 +1,31 @@
+{
+    "clientes": [{
+            "id": 1,
+            "title": "GraphicRiver",
+            "image": "graphicriver-logo-png-Images.png",
+            "link": "https://freepikpsd.com/media/2019/10",
+            "url": "https://graphicriver.net/"
+        },
+        {
+            "id": 2,
+            "title": "ThemeForest",
+            "image": "themeforest-logo.png",
+            "link": "https://webmetools.com/wp-content/uploads/2020/04",
+            "url": "https://themeforest.net/"
+        },
+        {
+            "id": 3,
+            "title": "AudioJungle",
+            "image": "audiojungle.png",
+            "link": "https://addotech.com/managedservices/wp-content/uploads/2013/12",
+            "url": "https://audiojungle.net/"
+        },
+        {
+            "id": 3,
+            "title": "CodeCanyon",
+            "image": "codecanyon.png",
+            "link": "https://alexsimon.com.br/wp-content/uploads/2013/12",
+            "url": "https://codecanyon.net/"
+        }
+    ]
+}
