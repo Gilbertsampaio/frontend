@@ -670,7 +670,7 @@ footer>ul>li>a:hover {
     }
     .modal-dialog.modal-dialog-centered {
         max-width: 500px;
-        margin: 1.75rem auto;
+        margin: .5rem;
     }
     header .nav-link {
         display: block;
@@ -742,5 +742,12 @@ footer>ul>li>a:hover {
     #divSearch.show .divClose {
         right: 5px;
         top: 5px;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog.modal-dialog-centered {
+        max-width: 500px;
+        margin: 1.75rem auto;
     }
 }
