@@ -30,3 +30,9 @@ https://www.gmeloweb.com.br/frontend-challenge-pleno/
 
 - O site está adaptado para todos os tipos de dispositivos moveis e desktop
 
+## Instruções para clonar e rodar Localhost
+
+- 1º Abra o Git, defina o diretório onde ficará o projeto e escreva o comando:
+
+* git clone https://github.com/Gilbertsampaio/frontend-challenge-pleno.git
+
