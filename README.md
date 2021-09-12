@@ -1,4 +1,4 @@
-<p align="center"><a href="https://www.gmeloweb.com.br" target="_blank"><img src="https://www.gmeloweb.com.br/img/logo-proposta.png" width="400"></a></p>
+<p align="center"><a href="https://www.gmeloweb.com.br" target="_blank"><img src="https://www.gmeloweb.com.br/images/logo-proposta.png" width="400"></a></p>
 
 # Frontend Challenge Pleno
 
