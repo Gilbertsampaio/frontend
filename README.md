@@ -2,6 +2,10 @@
 
 # Frontend Challenge Pleno
 
+## Link para acessar exemplo do site
+
+https://www.gmeloweb.com.br/frontend
+
 ## Projeto para o desenvolvimento de um site
 
 - O projeto consiste na criação de uma website seguindo o PSD do cliente.
