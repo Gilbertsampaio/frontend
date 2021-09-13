@@ -13,7 +13,7 @@ https://www.gmeloweb.com.br/frontend-challenge-pleno/
 ## Ferramentas Utilizadas
 
 - Boostrap;
-- Codeigniter 2.2.6;
+- Codeigniter 4;
 - Folha de estilo criada do zero;
 - Plugins JS;
 - Plugins JQUERY-MASK
