@@ -34,5 +34,5 @@ https://www.gmeloweb.com.br/frontend
 
 - 1º Abra o Git, defina o diretório onde ficará o projeto e escreva o comando:
 
-* git clone https://github.com/Gilbertsampaio/frontend-challenge-pleno.git
+* git clone https://github.com/Gilbertsampaio/frontend.git
 
