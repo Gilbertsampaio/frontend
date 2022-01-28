@@ -4,7 +4,7 @@
 
 ## Link para acessar exemplo do site
 
-https://www.gmeloweb.com.br/frontend-challenge-pleno/
+https://www.gmeloweb.com.br/frontend
 
 ## Projeto para o desenvolvimento de um site
 
