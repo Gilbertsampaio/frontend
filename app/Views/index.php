@@ -61,7 +61,7 @@
                     <img src="<?php echo base_url('../public/img/computador.png') ?>" class="d-block mx-lg-auto img-fluid">
                 </div>
                 <div class="col-lg-8" style="text-align: left;">
-                    <h1 class="fw-bold lh-1 mb-3 text-dark">Atencimento ao Cliente</h1>
+                    <h1 class="fw-bold lh-1 mb-3 text-dark">Atendimento ao Cliente</h1>
                     <p class="lead text-dark">Precisando entrar em contato, ultilize nossos canais de atendimento ou consulte a documentação para mais informações.</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                         <button onclick="modalTicket()" type="button" class="btn btn-success btn-lg fs-14 plr pulsaSuccess">Envie um Ticket</button>
